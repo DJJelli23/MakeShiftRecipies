@@ -6,6 +6,7 @@ using System.Data.SqlClient;
 using System.Data;
 using DAO;
 using System.Collections;
+using MakeShiftRecipies.IngredientClasses;
 
 namespace MakeShiftRecipies.RecipeClasses
 {
