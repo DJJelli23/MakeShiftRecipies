@@ -15,6 +15,9 @@ namespace MakeShiftRecipies
             //
             // TODO: Add constructor logic here
             //
+
+            // Also Create multiple classes the same as 
+            // Recipe and Ingredient as the database needs to be accessed as well.
         }
     }
 }
