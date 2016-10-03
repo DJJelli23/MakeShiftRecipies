@@ -7,6 +7,7 @@ using System.Web;
 using System.Data.SqlClient;
 using DAO;
 using System.Collections;
+using MakeShiftRecipies.IngredientClasses;
 
 namespace MakeShiftRecipies.RecipeClasses
 {
