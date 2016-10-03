@@ -154,6 +154,7 @@
     <Compile Include="RecipeClasses\RecipeDAO.cs" />
     <Compile Include="RecipeClasses\RecipeDS.cs" />
     <Compile Include="RecipeClasses\RecipeDSInterface.cs" />
+    <Compile Include="RecipeClasses\Recipes.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

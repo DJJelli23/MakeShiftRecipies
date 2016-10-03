@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 using DAO;
 using System.Collections;
 
-namespace MakeShiftRecipies
+namespace MakeShiftRecipies.RecipeClasses
 {
     public class RecipeDS : RecipeDSInterface
     {

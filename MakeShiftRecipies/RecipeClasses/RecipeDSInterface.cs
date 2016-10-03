@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Collections;
 
-namespace MakeShiftRecipies
+namespace MakeShiftRecipies.RecipeClasses
 {
     public interface RecipeDSInterface
     {

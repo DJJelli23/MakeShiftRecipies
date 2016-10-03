@@ -9,15 +9,29 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-        <div class="container" runat="server">
-            <div class="row" runat="server">
-                <div class="col-xs-12" runat="server">
-
+        <div>
+            <div class="container" runat="server">
+                <div class="row" runat="server">
+                    <div class="col-xs-12" runat="server">
+                        <ul class="nav nav-pills" runat="server">
+                            <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+                            <li class="disabled"><a href="http://google.com"><span class="glyphicon glyphicon-earphone"></span>Contact</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <span class="glyphicon glyphicon-info-sign"></span>About
+                            <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Mission</a></li>
+                                    <li><a href="#">Vision</a></li>
+                                    <li><a href="#">Products</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </form>
     <script src="scripts/bootstrap.min.js"></script>
 </body>

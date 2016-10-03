@@ -7,7 +7,7 @@ using System.Data;
 using DAO;
 using System.Collections;
 
-namespace MakeShiftRecipies
+namespace MakeShiftRecipies.RecipeClasses
 {
     public class RecipeDAO : BaseDAO
     {
@@ -26,7 +26,7 @@ namespace MakeShiftRecipies
             SqlCommand com = new SqlCommand(sql, con);
             SqlDataReader reader = com.ExecuteReader();
             ArrayList recNames = new ArrayList();
-            Recipe c = null;
+            Recipe c = new Recipe();
             while (reader.Read())
             {
                 c = new Recipe();
