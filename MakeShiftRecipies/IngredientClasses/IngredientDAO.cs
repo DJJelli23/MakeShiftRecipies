@@ -7,7 +7,7 @@ using System.Data;
 using System.Collections;
 using DAO;
 
-namespace MakeShiftRecipies
+namespace MakeShiftRecipies.IngredientClasses
 {
     public class IngredientDAO : BaseDAO
     {

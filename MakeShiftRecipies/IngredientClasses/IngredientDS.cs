@@ -6,7 +6,7 @@ using System.Web;
 /// <summary>
 /// Summary description for IngredientDS
 /// </summary>
-namespace MakeShiftRecipies
+namespace MakeShiftRecipies.IngredientClasses
 {
     public class IngredientDS
     {
