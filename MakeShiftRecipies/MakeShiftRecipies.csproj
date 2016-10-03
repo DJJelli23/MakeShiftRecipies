@@ -146,14 +146,14 @@
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
-    <Compile Include="IngredientDAO.cs" />
-    <Compile Include="IngredientDS.cs" />
-    <Compile Include="Ingredients.cs" />
+    <Compile Include="IngredientClasses\IngredientDAO.cs" />
+    <Compile Include="IngredientClasses\IngredientDS.cs" />
+    <Compile Include="IngredientClasses\Ingredients.cs" />
     <Compile Include="Inventory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RecipeDAO.cs" />
-    <Compile Include="RecipeDS.cs" />
-    <Compile Include="RecipeDSInterface.cs" />
+    <Compile Include="RecipeClasses\RecipeDAO.cs" />
+    <Compile Include="RecipeClasses\RecipeDS.cs" />
+    <Compile Include="RecipeClasses\RecipeDSInterface.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
