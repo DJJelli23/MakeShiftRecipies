@@ -36,13 +36,13 @@
     </form>
     <script src="scripts/bootstrap.min.js"></script>
     <script type="text/javascript">
-        $(document).ready(function ()
-        {
-            $('#dropDownList').click(function ()
-            {
-                $('#dropDownThing').collapse('show');
-            });
-        });
+        //$(document).ready(function ()
+        //{
+        //    $('#dropDownList').click(function ()
+        //    {
+        //        $('#dropDownThing').collapse('show');
+        //    });
+        //});
     </script>
 </body>
 </html>
