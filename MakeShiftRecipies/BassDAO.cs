@@ -11,7 +11,7 @@ namespace DAO
     public abstract class BaseDAO
     {
         SqlConnection connection;
-        String defaultCon = "Data Source=.\\SQLExpress;Integrated Security=true";
+        String defaultCon = "Data Source=.;Integrated Security=true";
 
         public SqlConnection connect(String database)
         {
