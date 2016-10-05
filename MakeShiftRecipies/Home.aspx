@@ -28,10 +28,6 @@
                                 </ul>
                             </li>
                         </ul>
-                        <asp:Button class="btn btn-primary" runat="server">
-                            Button
-                            <span class="glyphicon glyphicon-apple" runat="server"></span>
-                        </asp:Button>
                     </div>
                 </div>
             </div>
