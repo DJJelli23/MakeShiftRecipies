@@ -41,7 +41,7 @@ namespace MakeShiftRecipies.RecipeClasses
                 c.PrepTime = Convert.ToInt32(reader["preptime"]);
                 recNames.Add(c);
             }
-            /*need to create a nested loop to input the ingredients capturing the parent and parent objects*/
+            /* Need to create a nested loop to input the ingredients capturing the parent and parent objects. */
             if (recNames.Count != 0)
             {
 
