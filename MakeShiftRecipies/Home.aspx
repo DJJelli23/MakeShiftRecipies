@@ -16,13 +16,13 @@
                         <ul class="nav nav-pills" runat="server">
                             <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
                             <li><a href="#"><span class="glyphicon glyphicon-earphone"></span> Contact</a></li>
-                            <li class="dropdown">
+                            <li class="dropdown" id="dropDownThing">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                     <span class="glyphicon glyphicon-info-sign"></span>
                                     About
                                     <span class="caret"></span>
                                 </a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu" id="dropDownList">
                                     <li><a href="#">Mission</a></li>
                                     <li><a href="#">Vision</a></li>
                                     <li><a href="#">Products</a></li>
@@ -35,5 +35,14 @@
         </div>
     </form>
     <script src="scripts/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function ()
+        {
+            $('#dropDownList').click(function ()
+            {
+                $('#dropDownThing').collapse('show');
+            });
+        });
+    </script>
 </body>
 </html>
