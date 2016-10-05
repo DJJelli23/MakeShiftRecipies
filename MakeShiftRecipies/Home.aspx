@@ -14,12 +14,13 @@
                 <div class="row" runat="server">
                     <div class="col-xs-12" runat="server">
                         <ul class="nav nav-pills" runat="server">
-                            <li class="active" runat="server"><a href="#"><span class="glyphicon glyphicon-home" runat="server"></span>Home</a></li>
-                            <li class="disabled"><a href="http://google.com"><span class="glyphicon glyphicon-earphone"></span>Contact</a></li>
+                            <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-earphone"></span> Contact</a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <span class="glyphicon glyphicon-info-sign"></span>About
-                            <span class="caret"></span>
+                                    <span class="glyphicon glyphicon-info-sign"></span>
+                                    About
+                                    <span class="caret"></span>
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Mission</a></li>
