@@ -25,7 +25,7 @@
                         </button>
                         <a class="navbar-brand" href="Home.aspx">
                             <span class="glyphicon glyphicon-plus-sign"></span>
-                             TechCybo
+                             Make Shift Recipes
                         </a>
                     </div>
                     <div class="navbar-collapse collapse">
@@ -35,8 +35,8 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li class="dropdown-header">Menu</li>
-                                    <li role="separator" class="divider"></li>
+<%--                                    <li class="dropdown-header">Menu</li>
+                                    <li role="separator" class="divider"></li>--%>
                                     <li><a href="#">Mission</a></li>
                                     <li><a href="#">Vision</a></li>
                                     <li><a href="#">Products</a></li>
