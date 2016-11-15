@@ -158,7 +158,6 @@
     <Compile Include="RecipeClasses\Recipes.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="app\" />
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
