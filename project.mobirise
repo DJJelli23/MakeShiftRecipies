@@ -1,0 +1,98 @@
+{
+  "settings": {
+    "name": "PurityM Website Test",
+    "currentPage": "Schedular.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {}
+    },
+    "versionFirst": "3.9.0",
+    "uniqCompNum": 7,
+    "versionPublish": "3.9.0",
+    "publishType": "github",
+    "ftpLocation": "ftp://@206.190.132.148:2213",
+    "publishFtpPath": "ftp://206.190.132.148:2213",
+    "publishPath": "file:///ftp://206.190.132.148:2213"
+  },
+  "pages": {
+    "Schedular.html": {
+      "settings": {
+        "main": true,
+        "title": "Schedule an appointment.",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "msg-box5",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-4",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/UWF7dZTLW4c?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.3",
+            "overlayColor": "#a8d0ea",
+            "inverse": true,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/tulips-1400x934-29.jpg",
+              "link": "#",
+              "alt": "Penguin",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Schedule an appointment",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Our site helps you schedule an appointment with our company. You can see if the person you want to meet with has time that day as <b>you</b>&nbsp;are able to see their available time.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success-outline btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Schedule</a>",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".lead P": {
+              "color": "#ffffff"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
