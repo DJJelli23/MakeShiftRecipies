@@ -37,7 +37,7 @@
                                 <ul class="dropdown-menu">
 <%--                                    <li class="dropdown-header">Menu</li>
                                     <li role="separator" class="divider"></li>--%>
-                                    <li><a href="#">Mission</a></li>
+                                    <li><a href="Schedular.html">Mission</a></li>
                                     <li><a href="#">Vision</a></li>
                                     <li><a href="#">Products</a></li>
                                 </ul>
