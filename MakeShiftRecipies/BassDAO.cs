@@ -12,13 +12,14 @@ namespace DAO
     {
         // Opening connection to the server to get/pull info from database.
         SqlConnection connection;
+        // currently set to local database.
         String defaultCon = "Data Source=.;Integrated Security=true";
 
         public SqlConnection connect(String database)
         {
             return connect(defaultCon, database);
         }
-
+        // grabbing the name of database and connection string
         public SqlConnection connect(String connectionStr, String dbName)
         {
             connection = new SqlConnection(connectionStr);
@@ -26,7 +27,7 @@ namespace DAO
             connection.ChangeDatabase(dbName);
             return connection;
         }
-
+        // closing connection
         public void close()
         {
             if (connection != null)

@@ -23,6 +23,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
+                        <%--main icon and name of website--%>
                         <a class="navbar-brand" href="Home.aspx">
                             <span class="glyphicon glyphicon-plus-sign"></span>
                              Make Shift Recipes
