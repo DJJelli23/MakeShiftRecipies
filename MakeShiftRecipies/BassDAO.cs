@@ -10,6 +10,7 @@ namespace DAO
 {
     public abstract class BaseDAO
     {
+        // Opening connection to the server to get/pull info from database.
         SqlConnection connection;
         String defaultCon = "Data Source=.;Integrated Security=true";
 
